@@ -23,12 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # define hardware platform
-PRODUCT_PLATFORM := bengal
+PRODUCT_PLATFORM := sdm710
 
 # A/B support
 AB_OTA_UPDATER := true
 
-LOCAL_PATH := device/motorola/guamp
+LOCAL_PATH := device/motorola/astro
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -49,7 +49,7 @@ PRODUCT_PACKAGES += \
     update_engine_sideload
 
 PRODUCT_PACKAGES += \
-    bootctrl.bengal \
+    bootctrl.sdm710 \
     update_engine_sideload
 
 

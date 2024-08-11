@@ -17,9 +17,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_guamp.mk
+     $(LOCAL_DIR)/twrp_astro.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_guamp-user \
-    twrp_guamp-userdebug \
-    twrp_guamp-eng
+    twrp_astro-user \
+    twrp_astro-userdebug \
+    twrp_astro-eng
