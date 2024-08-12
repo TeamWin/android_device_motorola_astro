@@ -186,6 +186,10 @@ TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_RESETPROP := true
 TW_INCLUDE_FASTBOOTD := true
 
+# Notch Offset
+TW_Y_OFFSET := 45
+TW_H_OFFSET := -45
+
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
